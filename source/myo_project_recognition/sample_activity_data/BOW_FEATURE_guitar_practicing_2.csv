@@ -1,0 +1,5 @@
+,start_time,end_time,walking,running1,dribbling,idle_standing,guitar_sitting,guitar_standing,shooting,guitar_foot_on_chair,idle_sitting
+0,0.0,0.0,1.0,0.0,2.0,2.0,60.0,0.0,16.0,31.0,8.0
+1,0.0,0.0,0.0,0.0,1.0,0.0,84.0,0.0,0.0,35.0,0.0
+2,0.0,0.0,0.0,0.0,0.0,0.0,85.0,0.0,1.0,21.0,13.0
+3,0.0,0.0,0.0,0.0,0.0,0.0,15.0,1.0,3.0,51.0,5.0
