@@ -75,7 +75,7 @@ stream8 = Stream(
 
 
 
-#file_ = '/Users/taofeng/Dropbox/ece498-hw2/sdk/output/emg_data.csv'
+#file_ = '/Users/taofeng/Dropbox/git/LayeredSensing/source/data/emg_data.csv'
 file_ = sys.argv[1]
 df = pd.read_csv(file_, index_col = 'formatted_time').dropna()
 

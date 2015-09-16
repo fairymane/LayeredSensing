@@ -384,7 +384,7 @@ def get_sliding_window(df, ws, get_traning_data = False, label = -1,  \
 
 
         if output_format == 'hdf' :
-            hdf = pd.HDFStore('activity_data2/unit_patterns_final.h5')
+            hdf = pd.HDFStore('../data/unit_patterns.h5')
             print 'pattern_name: ', pattern_name
             print 'hdf.keys: ', hdf.keys() 
 
@@ -825,7 +825,7 @@ if __name__ == '__main__':
     act_index_label = {v: k for k, v in act_label_index.items()}
 
 
-    hdf_file = 'activity_data2/unit_patterns_final.h5'
+    hdf_file = '../data/unit_patterns.h5'
     global pca_
     global model_
     global act_model_
@@ -880,7 +880,7 @@ if __name__ == '__main__':
     #with open('model_list.pickle', 'wb') as f:
     #    pickle.dump([pca1_, model1_, pca2_, model2_], f)
     
-    #hdf = pd.HDFStore('activity_data2/unit_patterns_final.h5')
+    #hdf = pd.HDFStore('../data/unit_patterns.h5')
 
     #test_reading = hdf['reading1_stream_test']
     #test_shooting = hdf['shooting1_stream_test']
@@ -895,7 +895,7 @@ if __name__ == '__main__':
     
 
     ### Train Activity:
-    activity_hdf_file = 'activity_data2/unit_patterns_final.h5'
+    activity_hdf_file = '../data/unit_patterns.h5'
 
     df_train = shuffle_data1(activity_hdf_file, ['BOW_FEATURE_live_concert_1', 'BOW_FEATURE_basketball_1', 'BOW_FEATURE_guitar_practicing_1' ])
     df_test = shuffle_data1(activity_hdf_file,  ['BOW_FEATURE_live_concert_2', 'BOW_FEATURE_basketball_2', 'BOW_FEATURE_guitar_practicing_2' ])
