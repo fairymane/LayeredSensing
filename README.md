@@ -3,7 +3,7 @@
 * _A plugin application to social networks or other mobile Apps to enhance user experice by high accuracy of complex activities recognition_.
 * _Working on 1.shifting to cloud based application to be scalable to massive users. 2. Automatic (sensing) parameter calibration to reduce the training phase._
 
-# ![LayeredSensing](Paper_Slides/myo_image_black.png)
+## ![LayeredSensing](Paper_Slides/myo_image_black.png)
 ## Data Visaulization
 
 ### Install
@@ -49,7 +49,7 @@ $ python emg_stream_disp.py ../data/emg_data.csv
 ```
 Example of 9 streams of IMU data:
 
-![IMU](Paper_Slides/imu_data.png)
+#![IMU](Paper_Slides/imu_data)
 
 
 ## Activity Recognition
