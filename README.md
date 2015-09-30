@@ -3,7 +3,7 @@
 * _A plugin application to social networks or other mobile Apps to enhance user experice by high accuracy of complex activities recognition_.
 * _Working on 1.shifting to cloud based application to be scalable to massive users. 2. Automatic (sensing) parameter calibration to reduce the training phase._
 
-![wearable](Paper_Slides/wearable.png = 960*540) | ![LayeredSensing](Paper_Slides/myo_image_black.png = 960*540) | ![mobile](Paper_Slides/mobile.png = 960*540)  
+![wearable](Paper_Slides/wearable.png = 960x540) | ![Myo](Paper_Slides/myo_image_black.png = 960x540) | ![mobile](Paper_Slides/mobile.png = 960x540)  
 ------|---|---
 Myo Armband | Mobile phone | Wearable devices
 ## Data Visaulization
