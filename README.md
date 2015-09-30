@@ -5,11 +5,11 @@
 
 ![wearable](Paper_Slides/wearable.png) | ![Myo](Paper_Slides/myo_image_black.png) | ![mobile](Paper_Slides/mobile.png)  
 ------|---|---
- Wearable devices | Myo armband | Mobile phone 
+ Wearable devices | **Myo armband** | Mobile phones 
 
 ![daily-routine](Paper_Slides/routines.png) | ![Sense](Paper_Slides/know.png) | ![activities](Paper_Slides/activities.png)  
 ------|---|---
- Daily routine recognition |   **<--We sense everything -->** | Sports recognition
+ Daily routines recognition |   **<--We sense everything -->** | Sports recognition
 
 ## Data Visaulization
 
