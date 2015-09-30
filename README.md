@@ -33,7 +33,7 @@ $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAcco
 ```
 You'll need to setup an account of Plotly in order to run the python code.
  * [Plotly getting started](https://plot.ly/python/getting-started/).
- * [tutorial](https://plot.ly/python/streaming-tutorial/).
+ * [Tutorial](https://plot.ly/python/streaming-tutorial/).
 
 After setup, please replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
