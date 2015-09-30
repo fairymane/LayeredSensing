@@ -310,7 +310,7 @@ int main(int argc, char** argv)
     DataCollector collector;
 
 	// Create a output file
-	const char* path1 = "/Users/taofeng/Dropbox/git/LayeredSensing/source/data/mu_data_test_random20.csv";
+	const char* path1 = "/Users/taofeng/Dropbox/git/LayeredSensing/source/data/imu_data_test_walking5.csv";
 	std::ofstream imu(path1);
 	const char* path2 = "/Users/taofeng/Dropbox/git/LayeredSensing/source/data/emg_data.csv";
 	std::ofstream emg(path2);
