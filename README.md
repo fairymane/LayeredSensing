@@ -5,7 +5,7 @@
 
 ![wearable](Paper_Slides/wearable.png) | ![Myo](Paper_Slides/myo_image_black.png) | ![mobile](Paper_Slides/mobile.png)  
 ------|---|---
-Myo Armband | Mobile phone | Wearable devices
+ Wearable devices | Myo armband | Mobile phone 
 ## Data Visaulization
 
 ### Install
