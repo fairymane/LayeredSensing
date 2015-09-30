@@ -45,3 +45,10 @@ $ python imu_stream_disp.py ../data/imu_data.csv
 
 ## Activity Recognition
 For more detail about the algorithm design and architecture, please read this paper [LayeredSensing](https://github.com/fairymane/LayeredSensing/blob/master/Paper_Slides/LayeredSensing.pdf)
+
+
+## Team
+
+[![Tao Feng](https://avatars1.githubusercontent.com/u/3277606?v=2&s=460)](https://github.com/) | [![Zhiyuan Zheng])](https://avatars1.githubusercontent.com/u/12131004?v=2&s=460)](https://github.com/)
+---|---
+[Tao Feng](https://github.com/fairymane) | [Zhiyuan Zheng](https://github.com/zhiyuanzheng)
