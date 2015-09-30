@@ -1,8 +1,8 @@
-# ![LayeredSensing](Paper_Slides/myo_image_black.png)
-
+# LayeredSensing
 _Using motion sensing and muscle electrical signals to detect user's daily activiy in every second granularity.
 A plugin applcation to social networks or other mobile Apps to enhance user experice by high accuracy of activity recognition_.
 
+# ![LayeredSensing](Paper_Slides/myo_image_black.png)
 ## Data Visaulization
 
 ### Install
@@ -34,10 +34,10 @@ After setup, you need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly
 
 
 ###### MYO API
-src/myo_project_data_stream_generation/myo_sensor_data.cpp will generate all the IMU data (motion activities, 9 data streams) and EMG data (muscle activities, 8 data streams) into 2 files, imu_data.csv and emg_data.csv in src/data/.
+src/data_stream_generation/myo_sensor_data.cpp will generate all the IMU data (motion activities, 9 data streams) and EMG data (muscle activities, 8 data streams) into 2 files, imu_data.csv and emg_data.csv in src/data/.
 
 ###### Realtime Visualization
-You can run the imu_stream_disp.py and emg_stream_disp.py in src/myo_project_data_stream_generation/ to visualize the data stream in real time while the above program is generating data. For example:
+You can run the imu_stream_disp.py and emg_stream_disp.py in src/data_stream_generation/ to visualize the data stream in real time while the above program is generating data. For example:
 
 ```
 $ python imu_stream_disp.py ../data/imu_data.csv
@@ -46,9 +46,30 @@ $ python imu_stream_disp.py ../data/imu_data.csv
 ## Activity Recognition
 For more detail about the algorithm design and architecture, please read this paper [LayeredSensing](https://github.com/fairymane/LayeredSensing/blob/master/Paper_Slides/LayeredSensing.pdf)
 
+#### Unit Pattern/Activity Recognition
+Our unsupervised model GMM will detect new unit patterns that has not been learned yet and ask user if she/he want to train the new pattern 
+![GMM](Paper_Slides/GMM_5clusters.png)
+
+Or when user want to train/recognize new daily activity.
+```
+$ python src/recognition/rain_new.py new_pattern/new_activity
+```
+
+
+#### Real Time Recognition Mode
+In this mode, the *LayeredSensing* would recognize the real time unit patterns in every 1 second and activities in every 4 seconds. The *LayeredSensing* would also remind user when new patterns are detected for training through user interaction.
+
+```
+$ python src/recognition/real_time_rec.py
+```
+
 
 ## Team
 
 [![Tao Feng](https://avatars1.githubusercontent.com/u/3277606?v=2&s=460)](https://github.com/) | [![Zhiyuan Zheng](https://avatars1.githubusercontent.com/u/12131004?v=2&s=460)](https://github.com/) | [![Wathid Assawasunthonnet](https://avatars1.githubusercontent.com/u/8878378?v=2&s=460)](https://github.com/)
 ---|---|---
 [Tao Feng](https://github.com/fairymane) | [Zhiyuan Zheng](https://github.com/zhiyuanzheng) | [Wathid Assawasunthonnet](https://github.com/rockxja)
+
+## License
+MIT © [Tao Feng](https://github.com/fairymane)
+[Myo SDK license agreement](https://github.com/fairymane/LayeredSensing/blob/master/LICENSE.txt)
