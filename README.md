@@ -33,7 +33,7 @@ You'll need to setup an account of plotly in order to run the python code.
  * [plotly getting started](https://plot.ly/python/getting-started/).
  * [tutorial](https://plot.ly/python/streaming-tutorial/).
 
-After setup, you need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
+After setup, please replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
 
 ###### MYO API
