@@ -7,7 +7,7 @@
 ------|---|---
  Wearable devices | Myo armband | Mobile phone 
 
-![wearable](Paper_Slides/routines.png) | ![Myo](Paper_Slides/know.png) | ![mobile](Paper_Slides/activities.png)  
+![daily-routine](Paper_Slides/routines.png) | ![Sense](Paper_Slides/know.png) | ![activities](Paper_Slides/activities.png)  
 ------|---|---
  Daily routine recognition |   **<--We sense everything -->** | Sports recognition
 
@@ -43,7 +43,7 @@ You'll need to setup an account of Plotly in order to run the python code.
 After setup, please replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
 
-###### MYO API
+###### [MYO API](https://developer.thalmic.com/docs/api_reference/platform/script-reference.html)
 src/data_stream_generation/myo_sensor_data.cpp will generate all the IMU data (motion activities, 9 data streams) and EMG data (muscle activities, 8 data streams) into 2 files, imu_data.csv and emg_data.csv in src/data/.
 
 ###### Realtime Visualization
