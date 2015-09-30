@@ -27,8 +27,8 @@ $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
 ```
 You'll need to setup an account of plotly in order to run the python code.
- * [tutorial](https://plot.ly/python/streaming-tutorial/).
  * [plotly getting started](https://plot.ly/python/getting-started/).
+ * [tutorial](https://plot.ly/python/streaming-tutorial/).
 
 After setup, you need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
@@ -41,6 +41,8 @@ You can run the imu_stream_disp.py and emg_stream_disp.py in src/data_stream_gen
 
 ```
 $ python imu_stream_disp.py ../data/imu_data.csv
+
+$ python emg_stream_disp.py ../data/emg_data.csv
 ```
 
 ## Activity Recognition
@@ -52,8 +54,9 @@ Our unsupervised model GMM will detect new unit patterns that has not been learn
 
 Or when user want to train/recognize new daily activity.
 ```
-$ python src/recognition/rain_new.py new_pattern/new_activity
+$ python src/recognition/rain_new.py new_pattern_name/new_activity_name
 ```
+name could be user-defined.
 
 
 #### Real Time Recognition Mode
@@ -71,5 +74,5 @@ $ python src/recognition/real_time_rec.py
 [Tao Feng](https://github.com/fairymane) | [Zhiyuan Zheng](https://github.com/zhiyuanzheng) | [Wathid Assawasunthonnet](https://github.com/rockxja)
 
 ## License
-MIT © [Tao Feng](https://github.com/fairymane)
-[Myo SDK license agreement](https://github.com/fairymane/LayeredSensing/blob/master/LICENSE.txt)
+ * MIT © [Tao Feng](https://github.com/fairymane)
+ * [Myo SDK license agreement](https://github.com/fairymane/LayeredSensing/blob/master/LICENSE.txt)
