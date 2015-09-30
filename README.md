@@ -6,6 +6,11 @@
 ![wearable](Paper_Slides/wearable.png) | ![Myo](Paper_Slides/myo_image_black.png) | ![mobile](Paper_Slides/mobile.png)  
 ------|---|---
  Wearable devices | Myo armband | Mobile phone 
+
+![wearable](Paper_Slides/routines.png) | ![Myo](Paper_Slides/know.png) | ![mobile](Paper_Slides/activities.png)  
+------|---|---
+ Daily routines | We know everything | Sports 
+
 ## Data Visaulization
 
 ### Install
