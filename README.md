@@ -24,6 +24,7 @@ $ conda update conda
 $ conda update ipython ipython-notebook ipython-qtconsole
 ```
 
+For real time data stream animation, you need to install plotly:
 ```
 $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
@@ -46,6 +47,10 @@ $ python imu_stream_disp.py ../data/imu_data.csv
 
 $ python emg_stream_disp.py ../data/emg_data.csv
 ```
+Example of 9 streams of IMU data:
+
+![IMU](Paper_Slides/imu_data.png)
+
 
 ## Activity Recognition
 For more detail about the algorithm design and architecture, please read this paper [LayeredSensing](https://github.com/fairymane/LayeredSensing/blob/master/Paper_Slides/LayeredSensing.pdf)
