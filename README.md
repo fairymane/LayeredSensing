@@ -1,7 +1,7 @@
 # ![LayeredSensing](Paper_Slides/myo_image_black.png)
 
-Using motion sensing and muscle electrical signals to detect user's daily activiy in every second granularity.
-A plugin applcation to social networks or other mobile Apps to enhance user experice by high accuracy of activity recognition.
+_Using motion sensing and muscle electrical signals to detect user's daily activiy in every second granularity.
+A plugin applcation to social networks or other mobile Apps to enhance user experice by high accuracy of activity recognition_.
 
 ## Install
 #### Data Visaulization
@@ -26,9 +26,9 @@ $ conda update ipython ipython-notebook ipython-qtconsole
 $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
 ```
-You'll need to setup an account of plotly in order to run the python code:
-    - [tutorial](https://plot.ly/python/streaming-tutorial/)
-    - [plotly getting started](https://plot.ly/python/getting-started/)
+You'll need to setup an account of plotly in order to run the python code.
+    - [tutorial](https://plot.ly/python/streaming-tutorial/) .
+    - [plotly getting started](https://plot.ly/python/getting-started/) .
 After setup, need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
 
