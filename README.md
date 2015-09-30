@@ -1,6 +1,6 @@
 # LayeredSensing
 * _Usinmotion sensing and muscle electrical signals to detect user's daily activity in every second granularity_.
-* _A plugin applcation to social networks or other mobile Apps to enhance user experice by high accuracy of activity recognition_.
+* _A plugin applcation to social networks or other mobile Apps to enhance user experice by high accuracy of complex activity recognition_.
 
 # ![LayeredSensing](Paper_Slides/myo_image_black.png)
 ## Data Visaulization
