@@ -13,7 +13,7 @@ $ pip install pandas
 $ pip install ipython
 $ pip install "ipython[notebook]"
 ```
-Or you can install Anaconda, full Python environment for scientific computing and data science, which includes above packages.
+Or you can install Anaconda, a full Python environment for scientific computing and data science, which includes above packages.
  1. Download and install Continuum’s [Anaconda](https://www.continuum.io/downloads).
  2. Update IPython to the current version using the Terminal:
 
@@ -27,8 +27,8 @@ $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
 ```
 You'll need to setup an account of plotly in order to run the python code.
-    * [tutorial](https://plot.ly/python/streaming-tutorial/).
-    * [plotly getting started](https://plot.ly/python/getting-started/).
+    - [tutorial](https://plot.ly/python/streaming-tutorial/).
+    - [plotly getting started](https://plot.ly/python/getting-started/).
 
 After setup, you need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
