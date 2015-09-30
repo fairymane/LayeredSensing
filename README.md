@@ -9,7 +9,7 @@
 
 ![daily-routine](Paper_Slides/routines.png) | ![Sense](Paper_Slides/know.png) | ![activities](Paper_Slides/activities.png)  
 ------|---|---
- Daily routines recognition |   **<--We sense everything -->** | Sports recognition
+ Daily routines recognition |   **<--We sense everything -->** | Sports recognition and more...
 
 ## Data Visaulization
 
