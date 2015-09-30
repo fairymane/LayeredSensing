@@ -12,16 +12,6 @@
 		4D63875C192670E5005BE0A6 /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D04ADE619266DF9006E1C84 /* myo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		729CBDC81AEAE49E005E15F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729CBDC41AEAE49E005E15F7 /* emg-data-sample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4D1F5A95192655EE002845BB;
-			remoteInfo = "emg-data-sample";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		4D1F5A93192655EE002845BB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -39,7 +29,6 @@
 		4D04ADE419266DE6006E1C84 /* hello-myo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "hello-myo.cpp"; sourceTree = SOURCE_ROOT; };
 		4D04ADE619266DF9006E1C84 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myo.framework; path = ../myo.framework; sourceTree = SOURCE_ROOT; };
 		4D1F5A95192655EE002845BB /* hello-myo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hello-myo"; sourceTree = BUILT_PRODUCTS_DIR; };
-		729CBDC41AEAE49E005E15F7 /* emg-data-sample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "emg-data-sample.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +46,6 @@
 		4D1F5A8C192655EE002845BB = {
 			isa = PBXGroup;
 			children = (
-				729CBDC41AEAE49E005E15F7 /* emg-data-sample.xcodeproj */,
 				4D1F5A97192655EE002845BB /* hello-myo */,
 				4D1F5AA31926563B002845BB /* Frameworks */,
 				4D1F5A96192655EE002845BB /* Products */,
@@ -87,14 +75,6 @@
 			);
 			name = Frameworks;
 			path = "hello-myo";
-			sourceTree = "<group>";
-		};
-		729CBDC51AEAE49E005E15F7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				729CBDC91AEAE49E005E15F7 /* emg-data-sample */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,28 +116,12 @@
 			mainGroup = 4D1F5A8C192655EE002845BB;
 			productRefGroup = 4D1F5A96192655EE002845BB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 729CBDC51AEAE49E005E15F7 /* Products */;
-					ProjectRef = 729CBDC41AEAE49E005E15F7 /* emg-data-sample.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4D1F5A94192655EE002845BB /* hello-myo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		729CBDC91AEAE49E005E15F7 /* emg-data-sample */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "emg-data-sample";
-			remoteRef = 729CBDC81AEAE49E005E15F7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D1F5A91192655EE002845BB /* Sources */ = {
