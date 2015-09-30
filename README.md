@@ -9,7 +9,7 @@
 
 ![wearable](Paper_Slides/routines.png) | ![Myo](Paper_Slides/know.png) | ![mobile](Paper_Slides/activities.png)  
 ------|---|---
- Daily routine recognition | We know everything | Sports recognition
+ Daily routine recognition |   **We sense everything** | Sports recognition
 
 ## Data Visaulization
 
