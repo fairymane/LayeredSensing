@@ -24,13 +24,13 @@ $ conda update conda
 $ conda update ipython ipython-notebook ipython-qtconsole
 ```
 
-For real time data stream animation, you need to install plotly:
+For real time data stream animation, you need to install Plotly:
 ```
 $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
 ```
-You'll need to setup an account of plotly in order to run the python code.
- * [plotly getting started](https://plot.ly/python/getting-started/).
+You'll need to setup an account of Plotly in order to run the python code.
+ * [Plotly getting started](https://plot.ly/python/getting-started/).
  * [tutorial](https://plot.ly/python/streaming-tutorial/).
 
 After setup, please replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
