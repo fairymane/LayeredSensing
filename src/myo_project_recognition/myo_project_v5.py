@@ -384,7 +384,7 @@ def get_sliding_window(df, ws, get_traning_data = False, label = -1,  \
 
 
         if output_format == 'hdf' :
-            hdf = pd.HDFStore('../data/unit_patterns.h5')
+            hdf = pd.HDFStore('../data/unit_patterns1.h5')
             print 'pattern_name: ', pattern_name
             print 'hdf.keys: ', hdf.keys() 
 
@@ -795,7 +795,6 @@ def testing_accuracy(test_data, test_label, pca_train, model_train, get_accuracy
         #print 'test_res lable',  test_res
     return test_res
 
-    #print 'train label: ', trian_label ,'\n test_label', test_label
 
 if __name__ == '__main__':
 
@@ -818,21 +817,26 @@ if __name__ == '__main__':
     
     #arg_lst = ['shooting1', 'walking1', 'dribbling1', 'reading1', 'running1']
     #label_index = {'running1': 5, 'reading1': 4, 'dribbling1': 3, 'walking1': 2, 'shooting1': 1}
-    label_index = {'idle_sitting': 9, 'idle_standing': 8, 'guitar_foot_on_chair': 7, 'guitar_standing': 6,'running1': 5, 'guitar_sitting': 4, 'dribbling': 3, 'walking': 2, 'shooting': 1}
+    
+    #09 label_index = {'idle_sitting': 9, 'idle_standing': 8, 'guitar_foot_on_chair': 7, 'guitar_standing': 6,'running1': 5, 'guitar_sitting': 4, 'dribbling': 3, 'walking': 2, 'shooting': 1}
+    
+    label_index = {'idle_sitting':4, 'dribbling': 3, 'walking': 2, 'shooting': 1}
     index_label = {v: k for k, v in label_index.items()}
 
     act_label_index = {'LIVE_CONCERT' : 1, 'PLAY_BASKETBALL' :2, 'GUITA_PRACTICE' : 3}
     act_index_label = {v: k for k, v in act_label_index.items()}
 
+    
 
-    hdf_file = '../data/unit_patterns.h5'
+
+    hdf_file = '../data/unit_patterns1.h5'
     global pca_
     global model_
     global act_model_
     global act_pca_
     global cluster_model_
         
-    
+    """     
     [df_train, df_test] = shuffle_data2(hdf_file, label_index)
 
  
@@ -880,22 +884,23 @@ if __name__ == '__main__':
     #with open('model_list.pickle', 'wb') as f:
     #    pickle.dump([pca1_, model1_, pca2_, model2_], f)
     
-    #hdf = pd.HDFStore('../data/unit_patterns.h5')
+    #hdf = pd.HDFStore('../data/unit_patterns1.h5')
 
     #test_reading = hdf['reading1_stream_test']
     #test_shooting = hdf['shooting1_stream_test']
     #hdf.close()
 
+    """ 
 
     label_ = -1
     if len(sys.argv) > 3:
         label_ =  sys.argv[3]
 
 
-    
-
+    """
+     
     ### Train Activity:
-    activity_hdf_file = '../data/unit_patterns.h5'
+    activity_hdf_file = '../data/unit_patterns1.h5'
 
     df_train = shuffle_data1(activity_hdf_file, ['BOW_FEATURE_live_concert_1', 'BOW_FEATURE_basketball_1', 'BOW_FEATURE_guitar_practicing_1' ])
     df_test = shuffle_data1(activity_hdf_file,  ['BOW_FEATURE_live_concert_2', 'BOW_FEATURE_basketball_2', 'BOW_FEATURE_guitar_practicing_2' ])
@@ -915,8 +920,11 @@ if __name__ == '__main__':
         pickle.dump([act_pca_, act_model_], f)
     time.sleep(0.1)    
 
-    real_time_stream(sys.argv[1], 2, label = label_,  get_traning_data = False)
-    #real_time_stream(sys.argv[1], 2, label = label_, get_traning_data = True)
+    """
+    
+    
+    #real_time_stream(sys.argv[1], 2, label = label_,  get_traning_data = False)
+    real_time_stream(sys.argv[1], 2, label = label_, get_traning_data = True)
 
 
 
