@@ -51,7 +51,7 @@ $ python emg_stream_disp.py ../data/emg_data.csv
 ```
 Example of 9 streams of IMU data:
 
-#![IMU](Paper_Slides/imu.png)
+###![IMU](Paper_Slides/imu.png)
 
 
 ## Activity Recognition
