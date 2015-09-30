@@ -3,9 +3,9 @@
 _Using motion sensing and muscle electrical signals to detect user's daily activiy in every second granularity.
 A plugin applcation to social networks or other mobile Apps to enhance user experice by high accuracy of activity recognition_.
 
-## Install
-#### Data Visaulization
+## Data Visaulization
 
+### Install
  *Dependencies: ipython notebook, pandas, plotly.*
 
 ```
@@ -27,8 +27,8 @@ $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
 ```
 You'll need to setup an account of plotly in order to run the python code.
-    * 1 [tutorial](https://plot.ly/python/streaming-tutorial/).
-    * 2 [plotly getting started](https://plot.ly/python/getting-started/).
+ * [tutorial](https://plot.ly/python/streaming-tutorial/).
+ * [plotly getting started](https://plot.ly/python/getting-started/).
 
 After setup, you need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
@@ -43,4 +43,5 @@ You can run the imu_stream_disp.py and emg_stream_disp.py in src/myo_project_dat
 $ python imu_stream_disp.py ../data/imu_data.csv
 ```
 
-
+## Activity Recognition
+For more detail about the algorithm design and architecture, please read this paper [LayeredSensing](https://github.com/fairymane/LayeredSensing/blob/master/Paper_Slides/LayeredSensing.pdf)
