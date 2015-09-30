@@ -27,10 +27,10 @@ $ pip install plotly
 $ python -c "import plotly; plotly.tools.set_credentials_file(username='DemoAccount', api_key='lr1c37zw81')"
 ```
 You'll need to setup an account of plotly in order to run the python code.
-    1. [tutorial](https://plot.ly/python/streaming-tutorial/).
-    2. [plotly getting started](https://plot.ly/python/getting-started/).
+    * [tutorial](https://plot.ly/python/streaming-tutorial/).
+    * [plotly getting started](https://plot.ly/python/getting-started/).
 
-After setup, need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
+After setup, you need to replace 'DemoAccount' and 'lr1c37zw81' with your Plotly username and [API key](https://plot.ly/settings/api/).
 
 
 ###### MYO API
