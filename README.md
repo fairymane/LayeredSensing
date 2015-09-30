@@ -4,7 +4,7 @@
 * _Working on 1.shifting to cloud based application to be scalable to massive users. 2. Automatic (sensing) parameter calibration to reduce the training phase._
 
 ![LayeredSensing](Paper_Slides/myo_image_black.png) | ![mobile](Paper_Slides/mobile.png) | ![wearable](Paper_Slides/wearable.png)
----|---|---
+------|---|---
 Myo Armband | Mobile phone | Wearable devices
 ## Data Visaulization
 
