@@ -81,7 +81,7 @@ $ python src/recognition/real_time_rec.py
 ```
 
 
-## Team
+## Team Members
 
 [![Tao Feng](https://avatars1.githubusercontent.com/u/3277606?v=2&s=460)](https://github.com/) | [![Zhiyuan Zheng](https://avatars1.githubusercontent.com/u/12131004?v=2&s=460)](https://github.com/) | [![Wathid Assawasunthonnet](https://avatars1.githubusercontent.com/u/8878378?v=2&s=460)](https://github.com/)
 ---|---|---
