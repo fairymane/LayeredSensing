@@ -25,6 +25,6 @@ if __name__ =="__main__":
     label_ = -1
     if len(sys.argv) > 3:
         label_ =  sys.argv[3]
-    pattern_train(infile, label_)
+    pattern_train(sys.argv[1], label_)
 
 
