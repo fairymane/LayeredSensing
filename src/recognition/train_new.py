@@ -2,6 +2,8 @@
 from myo_util import * #TODO: Refactor the myo_util to OO, import class
 
     
+
+def pattern_train(infile, label_)
     label_index = {'idle_sitting':4, 'dribbling': 3, 'walking': 2, 'shooting': 1}
     index_label = {v: k for k, v in label_index.items()}
 
@@ -16,10 +18,13 @@ from myo_util import * #TODO: Refactor the myo_util to OO, import class
     global cluster_model_
 
 
+    real_time_stream(infile, 2, label = label_, get_traning_data = True)
+
+if __name__ =="__main__":
+
     label_ = -1
     if len(sys.argv) > 3:
         label_ =  sys.argv[3]
+    pattern_train(infile, label_)
 
 
-def define(sys.argv])
-    real_time_stream(sys.argv[1], 2, label = label_, get_traning_data = True)
